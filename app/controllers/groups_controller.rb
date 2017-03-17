@@ -38,7 +38,6 @@ def update
   def destroy
       @group.destroy
       redirect_to groups_path, alert: "Group deleted"
-    end
 
   @group.destroy
   flash[:alert] = "Group deleted"
